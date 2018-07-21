@@ -12,8 +12,8 @@ html {
 }
 
 @font-face {
-    font-family: 'IBMPlexMono-Regular';
-    src: url('IBMPlexMono-Regular.woff2') format('woff2');
+    font-family: 'Scto-Grotesk-A-Bold';
+    src: url('Scto-Grotesk-A-Bold.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
