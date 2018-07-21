@@ -12,8 +12,8 @@ html {
 }
 
 @font-face {
-    font-family: 'Scto-Grotesk-A-Bold';
-    src: url('Scto-Grotesk-A-Bold.otf') format('otf');
+    font-family: 'ML-Bold';
+    src: url('ML-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,5 +23,5 @@ html {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    font-family: 'Scto-Grotesk-A-Bold';
+    font-family: 'ML-Bold';
 }
