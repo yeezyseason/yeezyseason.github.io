@@ -18,10 +18,69 @@ html {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ML';
+    src: url('ML.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link, a:visited {
+    color: #0000EE;
+    text-align: center; 
+    text-decoration: none;
+}
+
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'ML-Bold';
+}
+
+.insta {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translateX(-50%) translateY(-50%);
+    transform: rotate(90deg);
+    font-family: 'ML';
+}
+
+.twitter {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-50%) translateY(-50%);
+    transform: rotate(-90deg);
+    font-family: 'ML';
+}
+
+.gradient{
+  background: linear-gradient(to right, #FFF 20%, #0000EE 40%, #0000EE 60%, #FFF 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.light {
+	font-family: 'ML';
+}
+
+@media (max-width: 700px) {
+	.insta {
+		left: 85%;
+	}
 }
